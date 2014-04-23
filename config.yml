@@ -1,0 +1,36 @@
+---
+components:
+  nats: 
+    - 10.10.102.171
+  database: 
+    - 10.10.102.172
+  cloud_controller_ng: 
+    - 10.10.102.173
+  gorouter:
+    - 10.10.102.174
+  uaa:
+    - 10.10.102.176
+  hm9000:
+    - 10.10.102.177
+  haproxy:
+    - 10.10.102.178
+  dea:
+    - 10.10.102.179
+  login:
+    - 10.10.102.180
+  etcd:
+    - 10.10.102.181
+  collector:
+    - 10.10.102.182
+  loggregator:
+    - 10.10.102.183
+  loggregator_trafficcontroller:
+    - 10.10.102.184
+  syslog_aggregator:
+    - 10.10.102.185
+properties:
+  domain: test.local
+  disksize: 15
+  user: vcap
+  password: password
+  root: 123456

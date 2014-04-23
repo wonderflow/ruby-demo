@@ -1,4 +1,4 @@
-#!/Users/wonderflow/.rvm/rubies/ruby-1.9.3-p545/bin/ruby
+#! /Users/wonderflow/.rvm/rubies/ruby-1.9.3-p545/bin/ruby
 
 require 'yaml'
 require 'net/ssh'
