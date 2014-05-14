@@ -1,36 +1,62 @@
 ---
-components:
-  nats: 
-    - 10.10.102.171
-  database: 
-    - 10.10.102.172
-  cloud_controller_ng: 
-    - 10.10.102.173
-  gorouter:
-    - 10.10.102.174
-  uaa:
-    - 10.10.102.176
-  hm9000:
-    - 10.10.102.177
-  haproxy:
-    - 10.10.102.178
-  dea:
-    - 10.10.102.179
-  login:
-    - 10.10.102.180
-  etcd:
-    - 10.10.102.181
-  collector:
-    - 10.10.102.182
-  loggregator:
-    - 10.10.102.183
-  loggregator_trafficcontroller:
-    - 10.10.102.184
-  syslog_aggregator:
-    - 10.10.102.185
-properties:
-  domain: test.local
-  disksize: 15
-  user: vcap
-  password: password
-  root: 123456
+debian_nfs_server:
+- 10.134.16.190 
+syslog_aggregator:
+- 10.134.16.158
+collector:
+- 10.134.16.198
+ccdb:
+- 10.134.16.202
+uaa:
+- 10.134.16.163
+uaadb:
+- 10.134.16.150
+vcap_redis:
+- 10.134.16.204
+login:
+- 10.134.16.216
+health_manager:
+- 10.134.16.214 
+health_monitor:
+- 10.134.16.197
+dashboard:
+- 10.134.16.187 
+cloud_controller:
+- 10.134.16.207
+- 10.134.16.160
+opentsdb:
+- 10.134.16.220
+zkper:
+- 10.134.16.205 
+stager:
+- 10.134.16.205 
+nats:
+- 10.134.16.21
+hbase_master:
+- 10.134.16.227
+hbase_slave:
+- 10.134.16.203
+router: 
+- 10.134.16.194 
+- 10.134.16.209
+- 10.134.16.146
+- 10.134.16.230
+- 10.134.16.12
+- 10.134.16.22 
+dea:
+- 10.134.16.147
+- 10.134.16.19
+- 10.134.16.20 
+- 10.134.16.221
+- 10.134.16.233
+- 10.134.16.103
+ESBgateway:
+- 10.134.16.211
+ESBnats:
+- 10.134.16.237
+ESB:
+- 10.134.16.208
+WSO2:
+- 10.134.16.219
+Home:
+- 10.134.16.218
